@@ -1,6 +1,8 @@
 #include "vec4i32.h"
 #include "vec4f32.h"
 
+#include <utility>
+
 Vec4i32::Vec4i32() {}
 
 Vec4i32::Vec4i32(int a, int b, int c, int d) {
