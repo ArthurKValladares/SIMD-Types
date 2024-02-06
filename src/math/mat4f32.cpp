@@ -59,8 +59,3 @@ Mat4f32 Mat4f32::operator*(const Mat4f32& rhs) const {
         Vec4f32(r3_c0, r3_c1, r3_c2, r3_c3)
     );
 }
-
-// r0x r0y r0z r0w
-// r1x r1y r1z r1w
-// r2x r2y r2z r2w
-// r3x r3y r3z r3w

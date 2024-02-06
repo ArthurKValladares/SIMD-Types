@@ -15,10 +15,10 @@ struct Vec4i32 {
     
     Vec4f32 to_float() const;
     
-    i32 x() const;
-	i32 y() const;
-	i32 z() const;
-	i32 w() const;
+    int x() const;
+	int y() const;
+	int z() const;
+	int w() const;
 
     bool any_gte(int val) const;
     
