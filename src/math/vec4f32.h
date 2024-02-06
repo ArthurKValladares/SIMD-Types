@@ -4,6 +4,7 @@
 #include "sse2neon.h"
 #else
 #include <emmintrin.h>
+#include <smmintrin.h>
 #endif
 
 class Vec4i32;
